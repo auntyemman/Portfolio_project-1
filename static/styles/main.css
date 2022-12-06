@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.header {
+    min-height: 10vh;
+    background-color: rgb(196, 196, 248);
+}
+.logo {
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    color: aliceblue;
+}
+.text span {
+    color: rgb(100, 98, 98);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.hero {
+    color: rgb(72, 70, 70);
+    text-align: center;
+    font-weight: bolder;
+}
+.search_cont {
+    display: flex;
+    justify-content: space-around;
+
+}
+.form {
+    margin-top: 50px;
+    border: 2px solid grey;
+    width: 17em;
+    padding: .5em 1em .5em;
+    border-radius: 20px;
+    display: flex;
+    justify-content:space-around;
+}
+.form .input {
+    border: none;
+    outline: none;
+    font-size: medium;
+    height: 1em;
+}
+.form button {
+    border-radius: 20px;
+    height: 2.5em;
+    border: none;
+    color: rgb(62, 60, 60);
+}
+
+article {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5em;
+}
+.weather_cont {
+    
+}
